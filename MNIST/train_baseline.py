@@ -6,7 +6,7 @@ from pathlib import Path
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 from dataloader import *
-from model import *
+from MoFtE.MNIST.models import *
 
 def set_seed(seed):
     torch.use_deterministic_algorithms(True)  # Ensures deterministic behavior
